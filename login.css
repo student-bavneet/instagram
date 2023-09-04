@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+main{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.box1{
+    border: 1px solid rgba(0, 0, 0, 0.481);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:50px 0 16px 0;
+    margin: 1em 0;
+}
+.box1 .img{
+    margin-bottom: 2em;
+}
+.box1 .img img{
+    width: 200px;
+}
+.box1 .form input{
+    width: 300px;
+    padding: 12px;
+    background-color: #efefef85;
+    border: 1px solid #cccccc;
+    outline: none;
+    border-radius: 3px;
+    margin-bottom: .5em;
+}
+.box1 .form button{
+    width: 300px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin: .5em 0 1em 0;
+    border-radius: 8px;
+    background-color: rgb(30, 195, 255);
+    color: white;
+}
+.box1 .text{
+    text-align: center;
+    line-height: 5.5vh;
+}
+.box1 .text p{
+    color: rgba(10, 10, 72, 0.88);
+}
+.box1 .text a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+.box2{
+    border: 1px solid rgba(0, 0, 0, 0.481);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:20px 0;
+}
+.box2  a{
+    color: rgb(1, 165, 225);
+    text-decoration: none;
+    font-weight: 550;
+}
+.box3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:30px 0;
+    gap: 20px;
+}
+.box3 .img{
+    display: flex;
+    gap: 10px;
+}
+.box3 .img img{
+    width: 150px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 17px;
+    margin-bottom: 1em;
+}
+footer nav ul{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer nav ul li{
+    list-style: none;
+}
+footer nav ul li a{
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.box1 .line
+{
+    margin: 1em 0;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+.box1 .line p{
+    font-weight: bold;
+    color: rgb(68, 68, 68);
+    position: relative;
+}
+.box1 .line p::before{
+    content: '';
+    width: 122px;
+    position: absolute;
+    top: 7px;
+    right: 43px;
+    border: 1px solid rgba(139, 139, 139, 0.653);
+}
+.box1 .line p::after{
+    content: '';
+    width: 130px;
+    position: absolute;
+    top: 7px;
+    border: 1px solid rgba(139, 139, 139, 0.653);
+}
